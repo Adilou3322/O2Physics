@@ -899,7 +899,6 @@ struct Xi1820Analysis {
           histos.fill(HIST("QAafter/lambdaProperLifetime"), v0.pt(), properLifetime);
           histos.fill(HIST("QAafter/lambdaArmenterosPodolanski"), v0.alpha(), v0.qtarm(), v0.pt());
           histos.fill(HIST("QAafter/lambdaDCAtoPV"), v0.pt(), v0.dcav0topv());
-
         }
 
         pKaon = ROOT::Math::PxPyPzEVector(ROOT::Math::PtEtaPhiMVector(kaon.pt(), kaon.eta(), kaon.phi(), MassKaonCharged));
